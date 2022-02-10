@@ -117,7 +117,7 @@ class _CalculatriceState extends State<Calculatrice> {
                           GestureDetector(
                             onTap: () {
                               setState(() {
-                                roland.removeAt(roland.length - 1);
+                                roland.remove(roland.last);
                               });
                             },
                             child: Container(
